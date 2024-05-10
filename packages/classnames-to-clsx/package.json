@@ -1,11 +1,11 @@
 {
   "name": "@codevine/classnames-to-clsx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "tsc ./src/index.ts --outDir ./dist",
+    "build": "codemod build",
     "test": "vitest run",
     "test:watch": "vitest watch"
   },
@@ -20,7 +20,9 @@
   "files": [
     "README.md",
     ".codemodrc.json",
-    "./dist/index.js"
+    "./dist/index.cjs",
+    "package.json",
+    "LICENSE"
   ],
   "type": "module"
 }
