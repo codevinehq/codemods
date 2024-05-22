@@ -1,0 +1,28 @@
+{
+  "name": "@codevine/classnames-to-clsx",
+  "version": "1.0.4",
+  "description": "",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "codemod build",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "devDependencies": {
+    "@types/node": "20.9.0",
+    "typescript": "5.2.2",
+    "vitest": "^1.0.1",
+    "jscodeshift": "^0.15.1",
+    "@types/jscodeshift": "^0.11.10"
+  },
+  "license": "MIT",
+  "files": [
+    "README.md",
+    ".codemodrc.json",
+    "./dist/index.cjs",
+    "package.json",
+    "LICENSE"
+  ],
+  "type": "module"
+}
