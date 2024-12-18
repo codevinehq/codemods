@@ -1,11 +1,12 @@
 {
   "$schema": "https://codemod-utils.s3.us-west-1.amazonaws.com/configuration_schema.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "name": "classnames-to-clsx",
   "engine": "jscodeshift",
   "deps": ["clsx"],
   "meta": {
+    "git": "https://github.com/codevinehq/codemods/tree/main/packages/classnames-to-clsx",
     "tags": ["react", "classnames", "clsx"]
   }
 }
